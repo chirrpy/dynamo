@@ -4,6 +4,7 @@
 #
 # The `fields` call should not be hard coded, etc
 #
+module Dynamo
 module DynamicFields
   FIELD_NAME_PATTERN = /(.+)_field(=)?$/
 
@@ -71,4 +72,5 @@ module DynamicFields
 
     super
   end
+end
 end
